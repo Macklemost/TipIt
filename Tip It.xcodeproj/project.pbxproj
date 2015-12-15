@@ -14,6 +14,7 @@
 		59B294C41C1BFDE70024A18F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B294C21C1BFDE70024A18F /* LaunchScreen.storyboard */; };
 		59B294CF1C1BFDE70024A18F /* Tip_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B294CE1C1BFDE70024A18F /* Tip_ItTests.swift */; };
 		59B294DA1C1BFDE70024A18F /* Tip_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B294D91C1BFDE70024A18F /* Tip_ItUITests.swift */; };
+		59B294E81C1E8B4E0024A18F /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B294E71C1E8B4E0024A18F /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		59B294D51C1BFDE70024A18F /* Tip ItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip ItUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B294D91C1BFDE70024A18F /* Tip_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip_ItUITests.swift; sourceTree = "<group>"; };
 		59B294DB1C1BFDE70024A18F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B294E71C1E8B4E0024A18F /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		59B294AD1C1BFDE70024A18F = {
 			isa = PBXGroup;
 			children = (
+				59B294E71C1E8B4E0024A18F /* SettingsViewController.swift */,
 				59B294B81C1BFDE70024A18F /* Tip It */,
 				59B294CD1C1BFDE70024A18F /* Tip ItTests */,
 				59B294D81C1BFDE70024A18F /* Tip ItUITests */,
@@ -258,6 +261,7 @@
 			files = (
 				59B294BC1C1BFDE70024A18F /* ViewController.swift in Sources */,
 				59B294BA1C1BFDE70024A18F /* AppDelegate.swift in Sources */,
+				59B294E81C1E8B4E0024A18F /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
