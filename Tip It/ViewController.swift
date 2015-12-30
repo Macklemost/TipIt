@@ -56,6 +56,8 @@ class ViewController: UIViewController {
             
         }
         
+        billField.text = defaults.stringForKey("savedBillField")
+        
     }
 
     override func viewWillAppear(animated: Bool) {
@@ -85,6 +87,8 @@ class ViewController: UIViewController {
         }
         
         updateValues()
+        
+        billField.text = defaults.stringForKey("savedBillField")
     }
 
     override func didReceiveMemoryWarning() {
@@ -103,7 +107,7 @@ class ViewController: UIViewController {
         
         sliderTextLabel.text = "Tip: " + String(format: "%.0f", tipSlider.value*100) + "%"
          updateValues()
-        
+        defaults.synchronize()
     }
     
     
@@ -118,6 +122,8 @@ class ViewController: UIViewController {
         
         var tipPercentages = [0.18, 0.2, 0.25]
         var tipPercentage = Double(0)
+        
+        defaults.setObject(billField.text, forKey: "savedBillField")
         
         if defaults.boolForKey("customTip") == true {
             
