@@ -79,7 +79,6 @@
 		59B294AD1C1BFDE70024A18F = {
 			isa = PBXGroup;
 			children = (
-				59B294E71C1E8B4E0024A18F /* SettingsViewController.swift */,
 				59B294B81C1BFDE70024A18F /* Tip It */,
 				59B294CD1C1BFDE70024A18F /* Tip ItTests */,
 				59B294D81C1BFDE70024A18F /* Tip ItUITests */,
@@ -100,6 +99,7 @@
 		59B294B81C1BFDE70024A18F /* Tip It */ = {
 			isa = PBXGroup;
 			children = (
+				59B294E71C1E8B4E0024A18F /* SettingsViewController.swift */,
 				59B294B91C1BFDE70024A18F /* AppDelegate.swift */,
 				59B294BB1C1BFDE70024A18F /* ViewController.swift */,
 				59B294BD1C1BFDE70024A18F /* Main.storyboard */,
@@ -488,6 +488,7 @@
 				59B294E01C1BFDE70024A18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59B294E11C1BFDE70024A18F /* Build configuration list for PBXNativeTarget "Tip ItTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +497,7 @@
 				59B294E31C1BFDE70024A18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59B294E41C1BFDE70024A18F /* Build configuration list for PBXNativeTarget "Tip ItUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +506,7 @@
 				59B294E61C1BFDE70024A18F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
